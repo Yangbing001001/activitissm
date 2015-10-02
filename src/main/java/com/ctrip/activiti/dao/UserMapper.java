@@ -1,8 +1,8 @@
-package com.cn.hnust.dao;
+package com.ctrip.activiti.dao;
 
-import com.cn.hnust.pojo.User;
+import com.ctrip.activiti.model.User;
 
-public interface IUserDao {
+public interface UserMapper {
     int deleteByPrimaryKey(Integer id);
 
     int insert(User record);

@@ -1,4 +1,4 @@
-package com.cn.hnust.pojo;
+package com.ctrip.activiti.model;
 
 public class User {
     private Integer id;
